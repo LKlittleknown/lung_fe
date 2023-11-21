@@ -6,6 +6,8 @@ const props = defineProps({
   collapse: Boolean
 });
 
+console.log(props);
+
 const { title } = useNav();
 </script>
 
@@ -29,7 +31,7 @@ const { title } = useNav();
         class="sidebar-logo-link"
         :to="getTopMenu()?.path ?? '/'"
       >
-        <img src="/logo.svg" alt="logo" />
+        <!-- <img src="/logo.svg" alt="logo" /> -->
         <span class="sidebar-title">{{ title }}</span>
       </router-link>
     </transition>

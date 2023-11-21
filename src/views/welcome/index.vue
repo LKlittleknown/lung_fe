@@ -5,5 +5,22 @@ defineOptions({
 </script>
 
 <template>
-  <h1>Pure-Admin-Thin（非国际化版本）</h1>
+  <div class="content">
+    <h1>肺部CT识别与初诊断系统</h1>
+  </div>
 </template>
+
+<style lang="scss" scoped>
+.content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    font-size: 24px;
+    font-weight: 600;
+  }
+}
+</style>
